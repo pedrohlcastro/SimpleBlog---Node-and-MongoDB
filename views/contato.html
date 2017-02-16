@@ -1,0 +1,12 @@
+{% extends "main.html" %}
+
+{% block content %}
+	<h1>Contato</h1>
+	<form name="contatoForm">
+		<label for="msg">Email:</label>
+		<input style="margin-bottom: 2%;" class="form-control" type="email" name="email" placeholder="Email" id="email"/>
+		<label for="msg">Mensagem:</label>
+		<textarea class="form-control" type="text" name="msg" placeholder="Mensagem" id="msg" style="height:30vh; margin-bottom: 2%;"></textarea>
+		<button class="btn btn-primary btn-block center-block" type="submit" >Enviar</button>
+	</form>
+{% endblock content %}

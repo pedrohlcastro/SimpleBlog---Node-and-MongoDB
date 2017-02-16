@@ -1,0 +1,43 @@
+{
+  "name": "partybuilder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrohlcastro/SimpleBlog---Node-and-MongoDB.git"
+  },
+  "author": "Pedro Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrohlcastro/SimpleBlog - Node and MongoDB/issues"
+  },
+  "homepage": "https://github.com/pedrohlcastro/SimpleBlog - Node and MongoDB#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "express": "^4.14.0",
+    "express-session": "^1.15.0",
+    "mongoose": "^4.7.8",
+    "morgan": "^1.7.0",
+    "nunjucks": "^3.0.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-beautify": "^2.0.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-image": "^2.7.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.11",
+    "run-sequence": "^1.2.2"
+  }
+}

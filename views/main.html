@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title{% block title %}{% endblock title %}</title>
+		<meta charset="utf-8">
+		<!-- Latest compiled and minified JQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="  crossorigin="anonymous"></script>
+		<script type="text/javascript" src="/static/js/script-min.js"></script>
+		<!-- Fonts compiled and minified CSS -->
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Play" rel="stylesheet">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="/static/css/style-min.css">
+	</head>
+	<body>
+		<nav class="nav-mobile">
+			<button id="burguer" type="button" class="btn btn-default" aria-label="Left Align">
+				<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+			</button>
+			<img id="logo-mobile" src="/static/img-min/logo.png" />
+		</nav>
+		<nav class="nav-no-mobile">
+			<div class="nav-logo">
+				<img id="logo" src="/static/img-min/logo.png" />
+			</div>
+			<div class="nav-links">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/contact" target="_self">Contato</a></li>
+					<li><a href="/about">Quem Somos</a></li>
+				</ul>
+			</div>
+			<div class="nav-footer">
+				<ul>
+					<li><a href="https://github.com/pedrohlcastro/">GITHUB</a></li>
+					<li><a href="#">PHL Web-Sites</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container">
+			{% block content %}
+				
+			{% endblock content %}
+		</div>
+	</body>
+</html>
